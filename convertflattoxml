@@ -1,0 +1,103 @@
+#  json script to read flat file (non x12) and convert to xml (Ashley format)
+{
+  "orderHeader": {
+    "record_id": "1000O",
+    "order_number": "2574332",
+    "order_date": "20250124",
+    "delivery_date": "20250202",
+    "customer": {
+      "number": "052738531",
+      "country": "USA",
+      "company": "DUFRESNE SPENCER GROUP, LLC",
+      "division": "ERRU SA"
+    },
+    "type": "STND",
+    "source": "ASHL"
+  },
+  "shipTo": {
+    "location_id": "ST904",
+    "name": "HARLINGEN DISTRIBUTION CENTER",
+    "address": "4405 GLASSCOCK AVENUE",
+    "city": "HARLINGEN",
+    "state": "TX",
+    "zip": "78550"
+  },
+  "orderLines": [
+    {
+      "line_number": "201",
+      "item": {
+        "sku": "8721310",
+        "description": "LEFT ARM FULL SOFA SLEEPER",
+        "vendor_id": "AFI",
+        "unit": "EA",
+        "quantity": "1",
+        "price": "393.03",
+        "extended_price": "393.03",
+        "collection": "ALTARI",
+        "vendor_code": "AFI0011",
+        "delivery_date": "20250202",
+        "weight": "172.00"
+      },
+      "tracking": "937268616387"
+    },
+    {
+      "line_number": "202",
+      "item": {
+        "sku": "B476-46",
+        "description": "5-DRAWER CHEST",
+        "vendor_id": "AFI",
+        "unit": "EA",
+        "quantity": "1",
+        "price": "275.22",
+        "extended_price": "275.22",
+        "collection": "CAITBROOK",
+        "vendor_code": "AFI0011",
+        "reference": "ASHLEY B476-46",
+        "delivery_date": "20250202",
+        "weight": "112.00"
+      },
+      "tracking": "906297946677"
+    },
+    {
+      "line_number": "203",
+      "item": {
+        "sku": "B476-92",
+        "description": "2-DRAWER NIGHTSTAND",
+        "vendor_id": "AFI",
+        "unit": "EA",
+        "quantity": "1",
+        "price": "132.66",
+        "extended_price": "132.66",
+        "collection": "CAITBROOK",
+        "vendor_code": "AFI0011",
+        "reference": "ASHLEY B476-92",
+        "delivery_date": "20250202",
+        "weight": "57.00"
+      },
+      "tracking": "906299083436"
+    },
+    {
+      "line_number": "204",
+      "item": {
+        "sku": "U5950518",
+        "description": "PWR REC LOVESEAT/CON/ADJ HDRST",
+        "vendor_id": "AFI",
+        "unit": "EA",
+        "quantity": "1",
+        "price": "663.30",
+        "extended_price": "663.30",
+        "collection": "MINDANAO",
+        "vendor_code": "AFI0011",
+        "reference": "MINDANAO COCONUT",
+        "delivery_date": "20250202",
+        "weight": "263.00"
+      },
+      "tracking": "946747403975"
+    }
+  ],
+  "orderSummary": {
+    "total_lines": "4",
+    "total_amount": "1464.21",
+    "total_weight": "604.00"
+  }
+}
